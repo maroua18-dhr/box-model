@@ -3,7 +3,9 @@
     align-items: center;
     justify-content: center;
     background-color: #FFFF; 
-    
+   max-width: 100%;
+   
+   
 }
 .margin{
     background-color: #f3b9ab;
@@ -12,18 +14,20 @@
     border-style: dashed;
     font-weight: bold;
     border-radius: 5px;
-    width: 15%;
-   
+   max-width: max-content;
+   margin: 20px;
 }
 .border{
     border: 6px solid rgb(0, 0, 0);
     padding: 8%;
     background-color: aliceblue;
     margin-top: 20px;
+    margin: 20px;
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
-    
+    max-width: 100%;
+    width: 80%;
 }
 .padding{
     padding: 8px;
@@ -31,12 +35,16 @@
     font-weight: bold;
     margin-top: 20px;
     border-radius: 5px;
-    border: 6px solid rgb(0, 0, 0)
+    border: 6px solid rgb(0, 0, 0);
+    max-width: 100%;
 }
 .content{
     background-color: rgb(179, 156, 201);
     margin-top: 20px;
+    margin: 20px;
     padding: 10%;
     font-weight: bold;
     border-radius: 5px;
+    max-width: 100%;
+    width: 50%;
 }
