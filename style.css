@@ -3,19 +3,17 @@
     align-items: center;
     justify-content: center;
     background-color: #FFFF; 
-    max-width: 83%;
+    
 }
 .margin{
     background-color: #f3b9ab;
-    padding: 10%;
+    padding: 6%;
     text-align: center;
     border-style: dashed;
     font-weight: bold;
     border-radius: 5px;
-    width: 100%;
-    max-width: 18%;
-    
-    
+    width: 17%;
+   
 }
 .border{
     border: 6px solid rgb(0, 0, 0);
