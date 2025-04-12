@@ -1,50 +1,40 @@
-.box{
+body {
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #FFFF; 
-   max-width: 100%;
-   
-   
-}
-.margin{
-    background-color: #f3b9ab;
-    padding: 6%;
-    text-align: center;
-    border-style: dashed;
-    font-weight: bold;
-    border-radius: 5px;
-   max-width: max-content;
-   margin: 26px;
-}
-.border{
-    border: 6px solid rgb(0, 0, 0);
-    padding: 8%;
-    background-color: aliceblue;
-    margin-top: 20px;
-    
-    text-align: center;
-    font-weight: bold;
-    border-radius: 5px;
-    max-width: 100%;
-    width: 50%;
-}
-.padding{
-    padding: 8px;
-    background-color: rgb(196, 119, 173);
-    font-weight: bold;
-    margin-top: 20px;
-    border-radius: 5px;
-    border: 6px solid rgb(0, 0, 0);
-    max-width: 100%;
-}
-.content{
-    background-color: rgb(179, 156, 201);
-    margin-top: 20px;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
     margin: 20px;
-    padding: 10%;
-    font-weight: bold;
-    border-radius: 5px;
-    max-width: 100%;
-    width: 50%;
+    padding: 20px;
+}
+
+.box {
+    display: inline-block;
+}
+
+.margin {
+    margin: 40px;
+    background-color: #f8d7da;
+    padding: 25px;
+    text-align:center;
+    border-style: dashed;
+}
+
+.border {
+    border: 5px solid #000000;
+    background-color: #fff3cd;
+    padding: 20px;
+}
+
+.padding {
+    padding: 20px;
+    background-color: #fdafb5;
+   
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 11px;
+    
 }
