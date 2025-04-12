@@ -3,9 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color: #FFFF; 
-    font-size: larger;
-    height: 100vh;
-    width: 100vw;
+    max-width: 83%;
 }
 .margin{
     background-color: #f3b9ab;
@@ -15,8 +13,9 @@
     font-weight: bold;
     border-radius: 5px;
     width: 100%;
-    max-width: 30%;
-    box-sizing: border-box;
+    max-width: 18%;
+    
+    
 }
 .border{
     border: 6px solid rgb(0, 0, 0);
